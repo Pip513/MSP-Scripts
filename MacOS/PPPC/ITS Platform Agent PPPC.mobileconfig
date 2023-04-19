@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>ITS Platform Agen PPPC Payload</string>
+			<key>PayloadDisplayName</key>
+			<string>ITS Platform Agen PPPC</string>
+			<key>PayloadIdentifier</key>
+			<string>9109F46A-7980-423A-BB0E-946B69753643</string>
+			<key>PayloadOrganization</key>
+			<string>Cove</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>DF21ACF8-ECD0-4B35-9A6B-A84220FAC07D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "platform-agent-core" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "4CAEBEB3GN"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>/opt/ITSPlatform/agentcore/platform-agent-core</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>ITS Platform Agen PPPC Payload</string>
+	<key>PayloadDisplayName</key>
+	<string>ITS Platform Agen PPPC</string>
+	<key>PayloadIdentifier</key>
+	<string>9109F46A-7980-423A-BB0E-946B69753643</string>
+	<key>PayloadOrganization</key>
+	<string>ConnectWise</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>C021A896-A28C-46C2-8617-766FAE007A5E</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

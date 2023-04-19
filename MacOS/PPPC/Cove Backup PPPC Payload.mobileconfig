@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Cove Backup PPPC Payload</string>
+			<key>PayloadDisplayName</key>
+			<string>Cove Backup PPPC Payload</string>
+			<key>PayloadIdentifier</key>
+			<string>4CE8BDCB-4CAB-498D-AB7A-BD90642ACC4F</string>
+			<key>PayloadOrganization</key>
+			<string>Cove</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>EC118041-2DAC-4A88-A13B-57E56EC9FA76</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.cloudbackup.mxb" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = YT3GCGK3Z7</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.cloudbackup.mxb</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Cove Backup PPPC Payload</string>
+	<key>PayloadDisplayName</key>
+	<string>Cove Backup PPPC Payload</string>
+	<key>PayloadIdentifier</key>
+	<string>4CE8BDCB-4CAB-498D-AB7A-BD90642ACC4F</string>
+	<key>PayloadOrganization</key>
+	<string>Cove</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>C6B18A36-7A06-4EBE-A617-501A3BFAB7C4</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
