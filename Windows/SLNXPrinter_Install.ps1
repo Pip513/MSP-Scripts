@@ -1,3 +1,6 @@
+#fine tune for your environment. "restart-service" can be commented out/deleted, this is written to be a login/startup printer check script with Ricoh StreamlineNX in mind. 
+
+
 $SLNXDriverinstallpath = "z00960L1b\disk1\oemsetup.inf"
 $SLNXService = "RICOH Streamline NX PC Client Service"
 $SLNXPort = "SLNX Server Secure Print Port"
