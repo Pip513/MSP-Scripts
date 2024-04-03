@@ -29,7 +29,7 @@ if ($null -eq (get-printer -Name $PrinterName | Where-Object {($_.PortName -eq $
     Write-Output "SLNX Printer is installed correctly"
     exit
 }
-#Check if SLNX is installed
+#Check if SLNX is installed (comment out/delete section if not using SLNX)
 if ($null -eq (Get-Service -Name $SLNXService)) {
     Write-Output "SLNX service does not exist"
     exit
