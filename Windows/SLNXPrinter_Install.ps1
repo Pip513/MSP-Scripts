@@ -57,4 +57,4 @@ if ($null -eq (Get-Service -Name $SLNXService)) {
 Remove-Printer -Name $PrinterName -ErrorAction SilentlyContinue
 #Add printer and restart SLNX
 Add-Printer -Name $PrinterName -DriverName $Printerdrivername -PortName $SLNXPort
-Restart-Service -DisplayName $SLNXService #-ErrorAction SilentlyContinue
+Restart-Service -DisplayName $SLNXService #-ErrorAction SilentlyContinue #comment out if not using SLNX
