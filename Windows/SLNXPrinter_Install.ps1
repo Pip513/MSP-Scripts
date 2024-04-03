@@ -1,5 +1,19 @@
 #fine tune for your environment. "restart-service" can be commented out/deleted, this is written to be a login/startup printer check script with Ricoh StreamlineNX in mind. 
 
+#alt if port needs to be created:
+# add the below variable. Change IP as needed
+        #$PortAddress = "10.0.1.200"
+
+#change the "Confirm if port exists" part to:
+#Confirm port exists, if not create it
+#if ($null -eq (Get-PrinterPort -Name $SLNXPort)) {
+#    Write-Output "SLNX port does not exist, creating..."
+#    Add-PrinterPort -Name $SLNXPort -PrinterHostAddress $PortAddress
+#}  else {
+#    Write-Output "SLNX port exists"
+#}
+
+
 
 $SLNXDriverinstallpath = "z00960L1b\disk1\oemsetup.inf"
 $SLNXService = "RICOH Streamline NX PC Client Service"
